@@ -1,4 +1,6 @@
-export const API_URL = import.meta.env.VITE_API_URL ?? "";
+export const API_URL =
+  import.meta.env.VITE_API_BASE_URL ??
+  "https://customer-feedback-intelligence-platform.onrender.com";
 
 export type Filters = {
   start_date?: string;
