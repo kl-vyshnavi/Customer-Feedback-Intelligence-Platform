@@ -9,6 +9,7 @@ from app.core.config import get_settings
 from app.db import Base, engine
 from app import models  # noqa: F401
 
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 
 
@@ -27,9 +28,12 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.frontend_origin],
+    allow_origins=[
+        "https://signal-desk-frontend-xf5c.onrender.com",
+        "http://localhost:5173",
+    ],
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PATCH"],
-    allow_headers=["Content-Type"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 app.include_router(router)
