@@ -1,0 +1,5 @@
+feedback,expected_sentiment,expected_category,expected_severity
+"The replacement item is broken and support has not replied",negative,product quality,high
+"My delivery arrived two days late",negative,delivery,medium
+"This is a great product and easy to use",positive,usability,low
+"The invoice is available in my account",neutral,billing,low

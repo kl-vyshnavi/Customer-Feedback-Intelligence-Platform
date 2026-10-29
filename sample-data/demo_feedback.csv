@@ -1,0 +1,7 @@
+feedback,date,rating,customer_id,product
+"Delivery arrived three days late and the package was damaged",2026-10-08,1,demo-001,Online store
+"The support agent resolved my billing problem quickly",2026-10-09,5,demo-002,Online store
+"The checkout page is confusing and difficult to use",2026-10-10,2,demo-003,Mobile app
+"My delivery was late again and tracking did not update",2026-10-11,2,demo-004,Online store
+"The product quality is excellent and it works perfectly",2026-10-12,5,demo-005,Home range
+"I was charged twice for the same subscription",2026-10-13,1,demo-006,Online store
